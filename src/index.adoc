@@ -1,0 +1,30 @@
+= 部誌2019
+
+== はじめに
+
+- 部長が書けよ
+
+== 目次
+
+
+
+// contents
+
+include::ecasdqina/index.adoc[]
+
+include::sei0o/index.adoc[]
+
+include::naoppy/index.adoc[]
+
+include::nagata/index.adoc[]
+
+== おわりに
+
+== 裏表紙
+
+- 著者プロフィール
+  - sei0o
+  - ngt
+  - naoppy
+  - ecasdqina
+- 奥付
