@@ -19,7 +19,7 @@ page:
   #margin: [0.5 * 72, 0.67 * 72, 0.67 * 72, 0.67 * 72]
   margin: [0.5in, 0.67in, 0.67in, 0.67in]
   # size can be a named size (e.g., A4) or custom dimensions (e.g., [8.25in, 11.69in])
-  size: A4
+  size: b5
 base:
   # color as hex string (leading # is optional)
   font_color: 333333
