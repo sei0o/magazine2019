@@ -93,13 +93,14 @@ title_page:
   authors_font_size: $base_font_size_large
   authors_font_color: 181818
   revision_margin_top: $base_font_size * 1.25
-#prose:
-#  margin_top: 0
+prose:
+  margin-top: 0
+  margin-inner: 0
 #  margin_bottom: $vertical_rhythm
 block:
   #margin_top: 0
   #margin_bottom: $vertical_rhythm
-  padding: [$vertical_rhythm, $vertical_rhythm * 1.25, $vertical_rhythm, $vertical_rhythm * 1.25]
+  # padding: [$vertical_rhythm, $vertical_rhythm * 1.25, $vertical_rhythm, $vertical_rhythm * 1.25]
 # code is used for source blocks (perhaps change to source or listing?)
 caption:
   font_style: italic
@@ -201,6 +202,8 @@ toc:
   #dot_leader_content: ". "
   line_height: 1.4
 # NOTE In addition to footer, header is also supported
+footnotes:
+  font_size: $base_font_size_small
 footer:
   font_size: $base_font_size_small
   font_color: $base_font_color
