@@ -4,12 +4,18 @@ font:
       normal: KaiGenGothicJP-Regular.ttf
       bold: KaiGenGothicJP-Bold.ttf
       italic: KaiGenGothicJP-Regular-Italic.ttf
-      bold_italic: KaiGenGothicJP-Bold-Italic.ttf
+      bold_italic: /usr/share/fonts/TTF/timesi.ttf
+      # bold_italic: KaiGenGothicJP-Bold-Italic.ttf
     Roboto Mono:
       normal: RobotoMono-Regular.ttf
       bold: RobotoMono-Bold.ttf
       italic: RobotoMono-Italic.ttf
       bold_italic: RobotoMono-BoldItalic.ttf
+    Times New Roman:
+      normal: /usr/share/fonts/TTF/times.ttf
+      italic: /usr/share/fonts/TTF/timesi.ttf
+      bold: /usr/share/fonts/TTF/timesbd.ttf
+      bold_italic: /usr/share/fonts/TTF/timesbi.ttf
   fallbacks:
     - KaiGen Gothic JP
 page:
@@ -36,7 +42,7 @@ base:
   #line_height_length: 18
   #font_size: 11.2
   #line_height_length: 16
-  font_size: 10
+  font_size: 9.5
   #line_height_length: 15
   # correct line height for Noto Serif metrics
   line_height_length: 15
@@ -178,8 +184,8 @@ thematic_break:
   margin_top: $vertical_rhythm * 0.5
   margin_bottom: $vertical_rhythm * 1.5
 description_list:
-  term_font_style: italic
-  description_indent: $horizontal_rhythm * 1.25
+  term_font_style: normal
+  # description_indent: $horizontal_rhythm * 1.25
 outline_list:
   indent: $horizontal_rhythm * 1.5
   # NOTE item_spacing applies to list items that do not have complex content
@@ -196,6 +202,8 @@ table:
   border_width: $base_border_width
   # HACK accounting for line-height
   cell_padding: [3, 3, 6, 3]
+stem:
+  font_family: Times New Roman
 toc:
   indent: $horizontal_rhythm
   dot_leader_color: dddddd

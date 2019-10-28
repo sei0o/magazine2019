@@ -11,8 +11,8 @@ fun `Z-algorithm`(s: String): IntArray {
             // Case1. 結果を再利用できる
             z[i] = z[diff]
         } else {
-            // Case2と3のとき 計算も必要
-            // skipできる距離はCase3のとき0だと考える。
+            // Case2, Case3. 計算も必要
+            // skipできる距離はCase3のとき0だと考える
             var k = max(0, z[L] - diff)
             while (i + k < s.length && s[k] == s[i + k]) k++
             z[i] = k

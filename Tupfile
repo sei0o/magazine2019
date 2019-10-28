@@ -1,0 +1,7 @@
+: src/index.adoc | theme.yml |> asciidoctor-pdf -r asciidoctor-pdf-cjk-kai_gen_gothic -r asciidoctor-mathematical -a pdf-style=theme.yml -a mathematical-form=svg -o %o %f |> dist/index.adoc.pdf
+: src/index.adoc |> asciidoctor -b docbook -a data-uri! -o %o %f |> dist/index.xml
+: dist/index.xml \
+  |> ~/apps/asciidoctor-fopub/fopub \
+      -t ~/Devs/docbook-xsl/ \
+      %f \
+  |> | dist/index.pdf
