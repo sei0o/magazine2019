@@ -44,6 +44,8 @@ include::zalgo/index.adoc[]
 
 include::law/index.adoc[]
 
+include::autosel/index.adoc[]
+
 :leveloffset: -1
 
 [colophon]
