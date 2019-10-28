@@ -7,7 +7,7 @@
 :icons: font
 
 [.text-right]
-naoppy (@NaoppyJ, 競技プログラミング班長) +
+naoppy （@NaoppyJ, 競技プログラミング班長） +
  +
 
 　初めて部誌を書くので至らない点があるかと思いますが、どうぞ最後までよんでいただけると幸いです。
@@ -42,12 +42,12 @@ naoppy (@NaoppyJ, 競技プログラミング班長) +
 
 このドキュメントでは、以下の用語を用います。
 
-接頭辞(prefix)::
-文字列 *_S_* に対して、末尾から *_x_* 文字削った文字列を *_S_* の接頭辞という。 (0 ≦ *_x_* ＜ |*_S_*|)
-接尾辞(suffix)::
-文字列 *_S_* に対して、先頭から *_x_* 文字削った文字列を *_S_* の接尾辞という。 (0 ≦ *_x_* ＜ |*_S_*|)
-部分文字列(substring)::
-文字列 *_S_* に対して、先頭から *_x_* 文字、末尾から *_y_* 文字削った文字列を *_S_* の部分文字列という。 (0 ≦ *_x_* + *_y_* ＜ |*_S_*|)
+接頭辞（prefix）::
+文字列 *_S_* に対して、末尾から *_x_* 文字削った文字列を *_S_* の接頭辞という。 （0 ≦ *_x_* ＜ |*_S_*|）
+接尾辞（suffix）::
+文字列 *_S_* に対して、先頭から *_x_* 文字削った文字列を *_S_* の接尾辞という。 （0 ≦ *_x_* ＜ |*_S_*|）
+部分文字列（substring）::
+文字列 *_S_* に対して、先頭から *_x_* 文字、末尾から *_y_* 文字削った文字列を *_S_* の部分文字列という。 （0 ≦ *_x_* + *_y_* ＜ |*_S_*|）
 
 .用語
 ====
@@ -61,7 +61,7 @@ naoppy (@NaoppyJ, 競技プログラミング班長) +
 
 == Z-algorithmとは
 
-　文字列 *_S_* が与えられたとき、各 *_i_* について *_S_* と *_S_*[*_i.._*] の最長共通接頭辞の長さ(Length of Longest Common Prefix, LCP長などという)を記録した配列 *_z_* を *_O_*(|*_S_*|) で構築するアルゴリズムです。
+　文字列 *_S_* が与えられたとき、各 *_i_* について *_S_* と *_S_*[*_i.._*] の最長共通接頭辞の長さ（Length of Longest Common Prefix, LCP長などという）を記録した配列 *_z_* を *_O_*(|*_S_*|) で構築するアルゴリズムです。
 
 .z-array
 ====
@@ -163,6 +163,6 @@ include::Z-algorithm.kt[lines=5..]
 [bibliography]
 == 参考文献
 
-. snuke (2014) 「文字列の頭良い感じの線形アルゴリズムたち３」 https://snuke.hatenablog.com/entry/2014/12/03/214243
-. ei1333 「最長共通接頭辞(Z-Algorithm)」 https://ei1333.github.io/luzhiled/snippets/string/z-algorithm.html
+. snuke （2014） 「文字列の頭良い感じの線形アルゴリズムたち３」 https://snuke.hatenablog.com/entry/2014/12/03/214243
+. ei1333 「最長共通接頭辞（Z-Algorithm）」 https://ei1333.github.io/luzhiled/snippets/string/z-algorithm.html
 . paladin8 「Z Algorithm」 http://codeforces.com/blog/entry/3107
