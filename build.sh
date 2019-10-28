@@ -1,6 +1,8 @@
 # asciidoctor-pdf
 mkdir -p dist/zalgo
+mkdir -p dist/sack
 cp -r src/zalgo/images dist/zalgo
+cp -r src/sack/fig.jpg dist/sack
 asciidoctor-pdf \
   -r asciidoctor-pdf-cjk-kai_gen_gothic \
   -a pdf-style=theme.yml \
