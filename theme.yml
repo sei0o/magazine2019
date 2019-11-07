@@ -25,7 +25,7 @@ page:
   #margin: [0.5 * 72, 0.67 * 72, 0.67 * 72, 0.67 * 72]
   margin: [0.5in, 0.67in, 0.67in, 0.67in]
   # size can be a named size (e.g., A4) or custom dimensions (e.g., [8.25in, 11.69in])
-  size: b5
+  size: [188mm, 263mm]
 base:
   # color as hex string (leading # is optional)
   font_color: 333333
@@ -42,10 +42,10 @@ base:
   #line_height_length: 18
   #font_size: 11.2
   #line_height_length: 16
-  font_size: 9.5
+  font_size: 10
   #line_height_length: 15
   # correct line height for Noto Serif metrics
-  line_height_length: 15
+  line_height_length: 16
   #font_size: 11.25
   #line_height_length: 18
   line_height: $base_line_height_length / $base_font_size
@@ -87,10 +87,11 @@ heading:
   margin_top: $vertical_rhythm * 0.2
   margin_bottom: $vertical_rhythm * 0.8
 title_page:
-  align: right
-  title_top: 55%
+  align: center
+  title_top: 25%
   title_font_size: $heading_h1_font_size
-  title_font_color: 999999
+  title_font_color: 181818
+  title_font_style: normal
   title_line_height: 0.9
   subtitle_font_size: $heading_h3_font_size
   subtitle_font_style: bold_italic
@@ -124,7 +125,7 @@ code:
   #padding: [10, 10, 7.5, 10]
   #line_height: 1.45
   font_family: $literal_font_family
-  font_size: ceil($base_font_size)
+  font_size: ceil($base_font_size * 0.8)
   #padding: [$base_font_size, $code_font_size, $base_font_size, $code_font_size]
   padding: $code_font_size
   line_height: 1.25
